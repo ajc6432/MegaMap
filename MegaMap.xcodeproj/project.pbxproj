@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C243ABD2842F6C1007C31E0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C243ABC2842F6C1007C31E0 /* Extensions.swift */; };
+		4C243ABF2842F705007C31E0 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C243ABE2842F705007C31E0 /* Protocols.swift */; };
+		4C27F020283B045E00BA2869 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C27F01F283B045E00BA2869 /* SearchView.swift */; };
+		4C27F022283B1C0500BA2869 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C27F021283B1C0500BA2869 /* SearchViewModel.swift */; };
+		4C34D1D82845D88500BF1704 /* BreweryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C34D1D72845D88500BF1704 /* BreweryService.swift */; };
+		4C34D1DA2845DB3300BF1704 /* LocationBasedSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C34D1D92845DB3300BF1704 /* LocationBasedSearchService.swift */; };
+		4C34D1DC2845DBBF00BF1704 /* Brewery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C34D1DB2845DBBF00BF1704 /* Brewery.swift */; };
+		4C4EFBA8283AECB800423E17 /* LocalSearchAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4EFBA7283AECB800423E17 /* LocalSearchAdapter.swift */; };
+		4C4EFBAA283AEEA200423E17 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4EFBA9283AEEA200423E17 /* LocationService.swift */; };
+		4C4EFBAC283AF11B00423E17 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4EFBAB283AF11B00423E17 /* User.swift */; };
+		4C4EFBB1283AF94400423E17 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4EFBB0283AF94400423E17 /* LoginView.swift */; };
+		4C4EFBB3283AFDAB00423E17 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4EFBB2283AFDAB00423E17 /* AppManager.swift */; };
 		4C9485882839DEAE00CDD450 /* MegaMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9485872839DEAE00CDD450 /* MegaMapApp.swift */; };
 		4C94858A2839DEAE00CDD450 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9485892839DEAE00CDD450 /* ContentView.swift */; };
 		4C94858C2839DEB100CDD450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C94858B2839DEB100CDD450 /* Assets.xcassets */; };
@@ -14,6 +26,15 @@
 		4C9485992839DEB200CDD450 /* MegaMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9485982839DEB200CDD450 /* MegaMapTests.swift */; };
 		4C9485A32839DEB200CDD450 /* MegaMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9485A22839DEB200CDD450 /* MegaMapUITests.swift */; };
 		4C9485A52839DEB200CDD450 /* MegaMapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9485A42839DEB200CDD450 /* MegaMapUITestsLaunchTests.swift */; };
+		4C9485B62839DFCC00CDD450 /* CoreLocationUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C9485B42839DFCC00CDD450 /* CoreLocationUI.framework */; };
+		4C9485B72839DFCC00CDD450 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C9485B52839DFCC00CDD450 /* CoreLocation.framework */; };
+		4C9485B92839DFD300CDD450 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C9485B82839DFD300CDD450 /* MapKit.framework */; };
+		4CF0056A284417640089F325 /* SearchResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF00569284417640089F325 /* SearchResultsView.swift */; };
+		4CF0056C284417710089F325 /* SearchResultsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF0056B284417710089F325 /* SearchResultsListView.swift */; };
+		4CF0056E284418760089F325 /* MapSearchResultsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF0056D284418760089F325 /* MapSearchResultsViewModel.swift */; };
+		4CF0057028441A810089F325 /* MapSearchResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF0056F28441A810089F325 /* MapSearchResultsView.swift */; };
+		4CF00572284420DD0089F325 /* PlaceSearchResultsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF00571284420DD0089F325 /* PlaceSearchResultsListView.swift */; };
+		4CF005742844234C0089F325 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF005732844234C0089F325 /* Place.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +55,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C243ABC2842F6C1007C31E0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4C243ABE2842F705007C31E0 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		4C27F01F283B045E00BA2869 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		4C27F021283B1C0500BA2869 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		4C34D1D72845D88500BF1704 /* BreweryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreweryService.swift; sourceTree = "<group>"; };
+		4C34D1D92845DB3300BF1704 /* LocationBasedSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationBasedSearchService.swift; sourceTree = "<group>"; };
+		4C34D1DB2845DBBF00BF1704 /* Brewery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brewery.swift; sourceTree = "<group>"; };
+		4C4EFBA7283AECB800423E17 /* LocalSearchAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSearchAdapter.swift; sourceTree = "<group>"; };
+		4C4EFBA9283AEEA200423E17 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		4C4EFBAB283AF11B00423E17 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4C4EFBB0283AF94400423E17 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		4C4EFBB2283AFDAB00423E17 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
 		4C9485842839DEAE00CDD450 /* MegaMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MegaMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C9485872839DEAE00CDD450 /* MegaMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MegaMapApp.swift; sourceTree = "<group>"; };
 		4C9485892839DEAE00CDD450 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +77,15 @@
 		4C94859E2839DEB200CDD450 /* MegaMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MegaMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C9485A22839DEB200CDD450 /* MegaMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MegaMapUITests.swift; sourceTree = "<group>"; };
 		4C9485A42839DEB200CDD450 /* MegaMapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MegaMapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4C9485B42839DFCC00CDD450 /* CoreLocationUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocationUI.framework; path = System/Library/Frameworks/CoreLocationUI.framework; sourceTree = SDKROOT; };
+		4C9485B52839DFCC00CDD450 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4C9485B82839DFD300CDD450 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4CF00569284417640089F325 /* SearchResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsView.swift; sourceTree = "<group>"; };
+		4CF0056B284417710089F325 /* SearchResultsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsListView.swift; sourceTree = "<group>"; };
+		4CF0056D284418760089F325 /* MapSearchResultsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSearchResultsViewModel.swift; sourceTree = "<group>"; };
+		4CF0056F28441A810089F325 /* MapSearchResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSearchResultsView.swift; sourceTree = "<group>"; };
+		4CF00571284420DD0089F325 /* PlaceSearchResultsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceSearchResultsListView.swift; sourceTree = "<group>"; };
+		4CF005732844234C0089F325 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +93,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C9485B92839DFD300CDD450 /* MapKit.framework in Frameworks */,
+				4C9485B62839DFCC00CDD450 /* CoreLocationUI.framework in Frameworks */,
+				4C9485B72839DFCC00CDD450 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +116,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C4EFBAD283AF12700423E17 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4C4EFBAB283AF11B00423E17 /* User.swift */,
+				4C4EFBB2283AFDAB00423E17 /* AppManager.swift */,
+				4C243ABE2842F705007C31E0 /* Protocols.swift */,
+				4CF005732844234C0089F325 /* Place.swift */,
+				4C34D1D92845DB3300BF1704 /* LocationBasedSearchService.swift */,
+				4C34D1DB2845DBBF00BF1704 /* Brewery.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4C4EFBAE283AF13300423E17 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				4C9485872839DEAE00CDD450 /* MegaMapApp.swift */,
+				4C9485892839DEAE00CDD450 /* ContentView.swift */,
+				4C4EFBB0283AF94400423E17 /* LoginView.swift */,
+				4CF005772844272A0089F325 /* Search */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		4C4EFBAF283AF14900423E17 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4C4EFBA7283AECB800423E17 /* LocalSearchAdapter.swift */,
+				4C4EFBA9283AEEA200423E17 /* LocationService.swift */,
+				4C243ABC2842F6C1007C31E0 /* Extensions.swift */,
+				4C34D1D72845D88500BF1704 /* BreweryService.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		4C94857B2839DEAE00CDD450 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +158,7 @@
 				4C9485972839DEB200CDD450 /* MegaMapTests */,
 				4C9485A12839DEB200CDD450 /* MegaMapUITests */,
 				4C9485852839DEAE00CDD450 /* Products */,
+				4C9485B32839DFCC00CDD450 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,10 +175,11 @@
 		4C9485862839DEAE00CDD450 /* MegaMap */ = {
 			isa = PBXGroup;
 			children = (
-				4C9485872839DEAE00CDD450 /* MegaMapApp.swift */,
-				4C9485892839DEAE00CDD450 /* ContentView.swift */,
 				4C94858B2839DEB100CDD450 /* Assets.xcassets */,
 				4C94858D2839DEB100CDD450 /* Preview Content */,
+				4C4EFBAE283AF13300423E17 /* UI */,
+				4C4EFBAD283AF12700423E17 /* Models */,
+				4C4EFBAF283AF14900423E17 /* Helpers */,
 			);
 			path = MegaMap;
 			sourceTree = "<group>";
@@ -125,6 +207,46 @@
 				4C9485A42839DEB200CDD450 /* MegaMapUITestsLaunchTests.swift */,
 			);
 			path = MegaMapUITests;
+			sourceTree = "<group>";
+		};
+		4C9485B32839DFCC00CDD450 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C9485B82839DFD300CDD450 /* MapKit.framework */,
+				4C9485B52839DFCC00CDD450 /* CoreLocation.framework */,
+				4C9485B42839DFCC00CDD450 /* CoreLocationUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CF00575284427140089F325 /* SearchResults */ = {
+			isa = PBXGroup;
+			children = (
+				4CF00569284417640089F325 /* SearchResultsView.swift */,
+				4CF0056B284417710089F325 /* SearchResultsListView.swift */,
+				4CF005762844271D0089F325 /* Map */,
+			);
+			path = SearchResults;
+			sourceTree = "<group>";
+		};
+		4CF005762844271D0089F325 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				4CF0056D284418760089F325 /* MapSearchResultsViewModel.swift */,
+				4CF0056F28441A810089F325 /* MapSearchResultsView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		4CF005772844272A0089F325 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				4CF00575284427140089F325 /* SearchResults */,
+				4CF00571284420DD0089F325 /* PlaceSearchResultsListView.swift */,
+				4C27F01F283B045E00BA2869 /* SearchView.swift */,
+				4C27F021283B1C0500BA2869 /* SearchViewModel.swift */,
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +379,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CF0057028441A810089F325 /* MapSearchResultsView.swift in Sources */,
+				4CF005742844234C0089F325 /* Place.swift in Sources */,
+				4C27F022283B1C0500BA2869 /* SearchViewModel.swift in Sources */,
+				4C27F020283B045E00BA2869 /* SearchView.swift in Sources */,
 				4C94858A2839DEAE00CDD450 /* ContentView.swift in Sources */,
+				4CF00572284420DD0089F325 /* PlaceSearchResultsListView.swift in Sources */,
+				4CF0056E284418760089F325 /* MapSearchResultsViewModel.swift in Sources */,
+				4C4EFBA8283AECB800423E17 /* LocalSearchAdapter.swift in Sources */,
+				4C34D1DC2845DBBF00BF1704 /* Brewery.swift in Sources */,
 				4C9485882839DEAE00CDD450 /* MegaMapApp.swift in Sources */,
+				4C4EFBAA283AEEA200423E17 /* LocationService.swift in Sources */,
+				4C243ABD2842F6C1007C31E0 /* Extensions.swift in Sources */,
+				4C34D1DA2845DB3300BF1704 /* LocationBasedSearchService.swift in Sources */,
+				4C34D1D82845D88500BF1704 /* BreweryService.swift in Sources */,
+				4CF0056A284417640089F325 /* SearchResultsView.swift in Sources */,
+				4CF0056C284417710089F325 /* SearchResultsListView.swift in Sources */,
+				4C243ABF2842F705007C31E0 /* Protocols.swift in Sources */,
+				4C4EFBB3283AFDAB00423E17 /* AppManager.swift in Sources */,
+				4C4EFBB1283AF94400423E17 /* LoginView.swift in Sources */,
+				4C4EFBAC283AF11B00423E17 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +562,7 @@
 				DEVELOPMENT_TEAM = 7TQTLUZ395;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location pls";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -451,6 +592,7 @@
 				DEVELOPMENT_TEAM = 7TQTLUZ395;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location pls";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
